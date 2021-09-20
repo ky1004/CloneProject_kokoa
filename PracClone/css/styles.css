@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;500&family=Open+Sans:wght@400;600&display=swap");
+/* google font를 사용하고자 하면 가급적 link보다는 css에 import를 해주자 */
+@import "reset.css";
+@import "variables.css";
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+  /* font-family: 'MuseoModerno', cursive; */
+  font-family: "Open Sans", sans-serif;
+  color: rgb(61, 61, 61);
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
